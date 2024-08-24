@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 500px;
+    background-color: rgb(240, 236, 236);
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(134, 129, 129);
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(50, 139, 50);
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    border: 10px grey;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+#ToDo_list{
+    list-style-type: none;
+}
+#ToDo_list li {
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    background-color: orange;
+    margin-bottom: 10px;
+}
